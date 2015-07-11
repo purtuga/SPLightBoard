@@ -33,13 +33,13 @@
         (function($){
             if (typeof $ === "undefined") {
                 document.write(
-                    '<script src="/' + '/ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></' + 'script>'
+                    '<script src="/' + '/ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js?_@BUILD"></' + 'script>'
                 );
 
             }
             if (typeof $ === "undefined" || typeof $.ui === "undefined") {
                 document.write(
-                    '<script src="/' + '/ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></' + 'script>'
+                    '<script src="/' + '/ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js?_@BUILD"></' + 'script>'
                 );
                 document.write(
                     '<link rel="stylesheet" href="/' +
