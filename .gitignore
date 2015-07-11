@@ -33,6 +33,7 @@ _$*
 my.*
 me.*
 _build*
+build*
 app/vendor
 node_modules
 #*
