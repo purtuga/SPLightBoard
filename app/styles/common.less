@@ -1,0 +1,53 @@
+// Hide the left quick launch (SP2010, 2013 )
+#s4-leftpanel,
+#sideNavBox {
+    display:none !important;
+}
+.s4-ca,
+#contentBox {
+    margin-left: .5em !important;
+    width: 98%;
+}
+
+//----------
+//  APP
+//----------
+.light-board {
+    position:   relative;
+    box-sizing: border-box;
+    font-size:  11pt;
+
+    &-menu {
+        padding: 1em 0em;
+
+        &-lists,
+        &-columns {
+            display:        inline-block;
+            padding:        0.5em;
+            margin-right:   1em;
+
+            & select {
+                line-height:    1.4em;
+                padding:        0.2em;
+                font-size:      1.4em;
+            }
+        }
+    }
+
+    &-kanban {
+        min-height: 20em;
+    }
+
+    &-msg {
+        font-size:      2em;
+        line-height:    2em;
+        width:          80%;
+        margin:         auto;
+    }
+
+    &-footer {
+        font-size:  0.9em;
+        padding:    1em 0em;
+        border-top: 1px solid;
+    }
+}
