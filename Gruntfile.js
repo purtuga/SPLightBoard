@@ -390,6 +390,11 @@ module.exports = function(grunt) {
                     '<%= buildFolder %>/app.run.aspx': 'app/app.aspx'
                 }
             },
+            spaToDist: {
+                files: {
+                    "dist/app.run.aspx": '<%= buildFolder %>/app.run.aspx'
+                }
+            },
             buildPrep: {
                 options: {
                     expand: true,
@@ -645,7 +650,8 @@ module.exports = function(grunt) {
             "requirejs:compile",
             "copy:spaCode",
             "uglify:spa",
-            "copy:spaExe"
+            "copy:spaExe",
+            "copy:spaToDist"
         ]);
 
     });

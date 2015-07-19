@@ -1,10 +1,14 @@
-SharePoint SPA
-----------------
+Test SharePoint SPA
+--------------------
 
 This app was generated using [Yeoman](http://yeoman.io) and [SharePoint-SPA generator](https://github.com/purtuga/generator-sharepoint-spa) and provides the scafolding needed to create browser based applications for SharePoint.
 
 The project is setup to use AMD by including RequireJS, along with the Text plugin and the Less plugin. The Grunt build process includes a Task to build a single-file SPA where all modules are included into a single file.
 
+Run App
+=======
+
+A built  app can be found in the `dist` folder. Just download the file and copy/upload it to a SharePoint document library.
 
 
 Build
