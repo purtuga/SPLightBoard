@@ -643,7 +643,7 @@ module.exports = function(grunt) {
     /**
      * Builds the Single Page Application into 1 single file
      */
-    grunt.registerTask('spa', function(){
+    grunt.registerTask('spa', "Builds the single page application", function(){
 
         grunt.task.run([
             "build",
