@@ -7,7 +7,8 @@
                 "lessc":      "vendor/require-less/lessc",
                 "normalize":  "vendor/require-less/normalize",
                 "text":       "vendor/requirejs-text/text",
-                "jquery":     "scripts/jQueryGlobal"
+                "jquery":     "vendor/jquery/dist/jquery",
+                "jquery-ui":  "vendor/jquery-ui/jquery-ui"
             },
             "less": {
                 "relativeUrls":   true,

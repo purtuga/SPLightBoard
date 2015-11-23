@@ -5,7 +5,8 @@ define([
     "vendor/SPWidgets/src/spapi/getSiteListCollection",
     "vendor/SPWidgets/src/spapi/getListColumns",
     // -modules not needing a reference----------
-    "less!../styles/common"
+    "less!../styles/common",
+    "jquery-ui"
 ], function(
     template,
     $,
